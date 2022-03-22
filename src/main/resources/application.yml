@@ -1,0 +1,20 @@
+server:
+  servlet:
+    context-path: /sboot
+spring:
+  profiles:
+    active: dev
+  freemarker:
+    suffix: .ftl
+    content-type: text/html
+    charset: UTF-8
+#    template-loader-path: classpath:/views/  #\u4E0D\u914D\u9ED8\u8BA4 classpath:/templates/
+  thymeleaf:
+    cache: false
+    encoding: utf-8
+    suffix: .html
+    servlet:
+      content-type: text/html
+#    prefix: classpath:/views/  #\u4E0D\u914D\u9ED8\u8BA4 classpath:/templates/
+#  resources:
+#    static-locations: classpath:/static/ #\u9ED8\u8BA4\u9759\u6001\u8D44\u6E90\u4F4D\u7F6E

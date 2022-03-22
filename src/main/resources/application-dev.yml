@@ -1,0 +1,5 @@
+server:
+  port: 8082
+
+log:
+  path: D:\logs2\log2
